@@ -3,8 +3,9 @@ import { AppointmentListComponent } from './pages/appointment-list/appointment-l
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
-import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { BookAnAppointmentComponent } from './pages/about-us/book-an-appointment/book-an-appointment.component';
+import { DepartmentsComponent } from './pages/departments/departments.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 export const routes: Routes = [
   { path:'', redirectTo: '', pathMatch: 'full' },
@@ -13,10 +14,10 @@ export const routes: Routes = [
   { path:'home',component: DashboardComponent},
   { path:'login',component: LoginComponent},
   { path:'signup',component: SignupComponent},
-  { path:'about',component:AboutUsComponent},
   { path:'book-an-appointment',component:BookAnAppointmentComponent},
-  { path:'appointment-list', component:AppointmentListComponent}
-  // { path:'open-close',component:OpenCloseComponent}
+  { path:'appointment-list', component:AppointmentListComponent},
+  { path:'contactus', component:ContactUsComponent},
+  { path:'departments', component:DepartmentsComponent}
 ];
 
 

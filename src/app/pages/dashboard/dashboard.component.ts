@@ -21,6 +21,12 @@ constructor( public router:Router,public dialog: MatDialog){}
   redirectTohome(){
     this.router.navigate(['/home'])
   }
+    redirectTodepartments(){
+    this.router.navigate(['/departments'])
+  }
+  redirectTocontactus(){
+    this.router.navigate(['/contactus'])
+  }
 
    generate(): void {
      const dialogRef = this.dialog.open(AppointmentListComponent, {
@@ -28,6 +34,4 @@ constructor( public router:Router,public dialog: MatDialog){}
      });
     
   }
-
-
 }

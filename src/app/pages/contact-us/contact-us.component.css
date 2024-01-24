@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    text-decoration: none;
+    /* overflow: hidden; */
+    z-index: auto;
+    
+    /* box-sizing: border-box; */
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+/*  */
+.company-logo img{
+    width: 120px;
+}
+#navbar{
+    margin-top:0;
+    background-color: rgb(103, 103, 255);
+    height: 50px;
+    /* margin-right: 15px; */
+    position:fixed;
+    text-decoration: none;
+}
+#navbar ul{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer; 
+}
+#navbar ul li { 
+    list-style: none;
+    margin:15px 0 ;
+ }
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 38px;
+}
+#navbar ul li a:hover{
+    color: rgb(2,2,122);
+    text-decoration: white 1.5px underline;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    color: rgb(2,2,122);
+    text-decoration: white 1.5px underline;
+    color: white;
+    text-decoration: none;
+}
+#name{
+ color: black;
+ font-size: 30px;
+ font-weight: bold;
+ list-style: none;
+ text-decoration: none;
+ /* margin: 8px 30px; */
+ float: left;
+}
+.seaerch{
+    border-radius: 10px ;
+}
+.appointment{
+    list-style: none;
+    /* display: inline-block; */
+    color: white;
+    padding: 6px;
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 65px;
+    border-radius: 10px;
+    /* float: right; */
+    width: 100px;
+    height: 36px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+
+#first-element{
+    margin-left: 500px;
+    display: block;
+}
+.appointment:hover{
+    transition: 0.3s;
+    background: rgb(66,66,214); 
+}

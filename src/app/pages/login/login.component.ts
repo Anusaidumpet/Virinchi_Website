@@ -25,8 +25,8 @@ export class LoginComponent {
   redirectTohome(){
     this.router.navigate(['/home'])
   }
-  redirectToabout(){
-    this.router.navigate(['/about'])
+  redirectTodepartments(){
+    this.router.navigate(['/departments'])
   }
 
 }
