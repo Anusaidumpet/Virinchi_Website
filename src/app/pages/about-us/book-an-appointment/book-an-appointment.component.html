@@ -1,0 +1,146 @@
+<header>
+  <nav id="navbar">
+    <li id="name" aria-current="page" (click)="redirectTohome()"> Virinchi</li>
+    <ul>
+      <li><a (click)="redirectTohome()">Home</a></li>
+      <li><a (click)="redirectToabout()">About</a></li>
+      <li><a >Hospital</a></li>
+      <li><a>Facility</a></li>
+      <li><a>Treatments</a></li>
+      <!-- <li class="Label"><input type="search" id="SearchInput"  />
+        <label for="SearchInput"></label>
+      </li> -->
+      <form class="d-flex mt-2">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+      <!-- <button type="submit" class="btn btn-outline-light me-4">Log in</button> -->
+      <button class="appointment" (click)="redirectTologin()">Log in</button>
+    </ul>
+  </nav>
+</header>
+<!-- navbar end  -->
+<form>
+<div>
+	<img style="width: 100%;" src="assets/hospital-about.jpg" alt="hospital-bs -img">
+   </div>
+  </form>
+<div class="container">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="well-block">
+              <div class="well-title">
+                  <h2>Questions? Book an Appointment</h2>
+              </div>
+              <form (ngSubmit)="submit()">
+                  <!-- Form start -->
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label class="control-label" for="name">Name</label>
+                              <input  name="name" type="text" placeholder="Name" class="form-control input-md">
+                          </div>
+                      </div>
+                      <!-- Text input-->
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label class="control-label" for="email">Email</label>
+                              <input id="email" name="email" type="text"placeholder="E-Mail" class="form-control input-md">
+                          </div>
+                      </div>
+                      <!-- Text input-->
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label class="control-label" for="date">Preferred Date</label>
+                              <input id="date" name="date" type="date" placeholder="Preferred Date" class="form-control input-md" >
+                          </div>
+                      </div>
+                      <!-- Select Basic -->
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label class="control-label"  for="time">Preferred Time</label>
+                              <select id="time" name="time" class="form-control">
+                                  <option value="8:00 to 9:00">8:00 to 9:00</option>
+                                  <option value="9:00 to 10:00">9:00 to 10:00</option>
+                                  <option value="10:00 to 1:00">10:00 to 1:00</option>
+                              </select>
+                          </div>
+                        </div>
+                      <!-- Select Basic -->
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <label class="control-label"  for="appointmentfor">Appointment For</label>
+                              <select id="appointmentfor" name="appointmentfor" class="form-control">
+                                  <option value="Service#1">Service#1</option>
+                                  <option value="Service#2">Service#2</option>
+                                  <option value="Service#3">Service#3</option>
+                                  <option value="Service#4">Service#4</option>
+                              </select>
+                          </div>
+                      </div>
+                      <!-- <div class="form-group">
+                        <label for="exampleFormControlTextarea1" [(ngModel)]="Emergency" [ngModelOptions]="{ standalone: true}">Emergency description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div> -->
+                      <div class="input-group" style="position:static;">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">With textarea</span>
+                        </div>
+                        <textarea class="form-control" aria-label="With textarea" style="position:static;"></textarea>
+                      </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlFile1">Previous Report</label> <br>
+                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                    
+                      <!-- Button -->
+                      <div class="col-md-12">
+                          <div class="form-group">
+                            <br>
+                              <button id="singlebutton" name="singlebutton" class="btn btn-default">Make An Appointment</button>
+                          </div>
+                      </div>
+                  </div>
+              </form>
+              <!-- form end -->
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="well-block">
+              <div class="well-title">
+                  <h2>Why Appointment with Us</h2>
+              </div>
+              <div class="feature-block">
+                  <div class="feature feature-blurb-text">
+                      <h4 class="feature-title">24/7 Hours Available</h4>
+                      <div class="feature-content">
+                          <p>Integer nec nisi sed mi hendrerit mattis. Vestibulum mi nunc, ultricies quis vehicula et, iaculis in magnestibulum.</p>
+                      </div>
+                  </div>
+                  <div class="feature feature-blurb-text">
+                      <h4 class="feature-title">Experienced Staff Available</h4>
+                      <div class="feature-content">
+                          <p>Aliquam sit amet mi eu libero fermentum bibendum pulvinar a turpis. Vestibulum quis feugiat risus. </p>
+                      </div>
+                  </div>
+                  <div class="feature feature-blurb-text">
+                      <h4 class="feature-title">Low Price & Fees</h4>
+                      <div class="feature-content">
+                          <p>Praesent eu sollicitudin nunc. Cras malesuada vel nisi consequat pretium. Integer auctor elementum nulla suscipit in.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- appoint ment end  -->
+
+<form>
+  <div>
+    <div class="about-circle">
+      <img src="assets/circle-about.png" alt="Hospital-detail">
+    </div>
+  </div>
+</form>

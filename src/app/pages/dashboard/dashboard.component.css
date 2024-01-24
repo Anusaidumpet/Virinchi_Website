@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    text-decoration: none;
+    /* overflow: hidden; */
+    z-index: auto;
+    
+    /* box-sizing: border-box; */
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+/*  */
+.company-logo img{
+    width: 120px;
+}
+#navbar{
+    margin-top:0;
+    background-color: rgb(103, 103, 255);
+    height: 50px;
+    /* margin-right: 15px; */
+    position:fixed;
+    text-decoration: none;
+}
+#navbar ul{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer; 
+}
+#navbar ul li { 
+    list-style: none;
+    margin:15px 0 ;
+ }
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 44px;
+}
+#navbar ul li a:hover{
+    color: rgb(2,2,122);
+    text-decoration: white 1.5px underline;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    color: rgb(2,2,122);
+    text-decoration: white 1.5px underline;
+    color: white;
+    text-decoration: none;
+}
+#name{
+ color: black;
+ font-size: 30px;
+ font-weight: bold;
+ list-style: none;
+ text-decoration: none;
+ margin: 8px 30px;
+ float: left;
+}
+.seaerch{
+    border-radius: 10px ;
+}
+.appointment{
+    list-style: none;
+    /* display: inline-block; */
+    color: white;
+    padding: 6px;
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 30px;
+    border-radius: 10px;
+    /* float: right; */
+    width: 100px;
+    height: 36px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+
+#first-element{
+    margin-left: 500px;
+    display: block;
+}
+.appointment:hover{
+    transition: 0.3s;
+    background: rgb(66,66,214); 
+}
+
+/* ****************navbar end**************** */
+
+.Home{
+    content: "";
+    /* background-image: url("assets/Home_Hospital.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+    /* margin-right: 5rem; */
+}
+.intro-container h1 {
+    font-size: 50px;
+}
+.intro-container p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.intro-container button {
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: blue;
+    background: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.intro-container button:hover{
+    color: white;
+    background:blue;
+    cursor: pointer; 
+    transition: 0.3s;
+    background: rgb(66,66, 214);
+}
+/* ********intro******** */
+
+.card{ 
+    position: static;
+    padding: 10px;
+}
+.facility{
+    /* border: 2px solid yellow; */
+    margin-top: 120px;
+    background: whitesmoke;
+}
+.fac-container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    /* border: 2px solid brown; */
+    height: 100%;
+    width: 350px;
+    margin: 30px;
+    box-shadow: 1px 1.8px 2px black;
+}
+.facility h1,p{
+    text-align: center;
+}
+.facility h1{
+    font-size: 40px;
+    /* margin-top: -60px; */
+}
+.facilty p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fac-container img{
+    /* border: 2px solid rgb(230, 46, 46); */
+    height: 200px;
+    width: 100%;
+}
+.fac-container p{
+    font-size: 15px;
+}
+#fac-heading{
+    margin-top: 230px;
+    font-size: 40px;
+}
+/* ---------------Facility End--------------- */
+/* .key-point{
+    border: 2px solid blue;
+} */
+.key-cont{
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    display: flex;
+}
+#box1{
+    color: white;
+    background-color: rgb(137, 147, 210);
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 470px;
+    text-align: center;
+}
+#box2{
+    color: white;
+    background-color: rgb(137, 147, 210);
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 470px;
+    text-align: center;
+}
+#box3{
+    color: white;
+    background-color: rgb(137, 147, 210);
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 470px;
+    text-align: center;
+}
+#box1 h2{
+    margin: 10px;
+}
+#box2 h2{
+    margin: 10px;
+}
+#box3 h2{
+    margin: 10px;
+}
+#box1 p{
+    padding: 20px;
+    text-align: center;
+}
+#box2 p{
+    padding: 20px;
+    text-align: center;
+}
+#box3 p{
+    padding: 20px;
+    text-align: center;
+}
+.key-point h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+.icon{
+    /* filter:invert(20%); */
+    /* display: block; */
+    margin: 5px auto;
+    /* border: 2px solid violet; */
+    margin-top: 60px;
+    height: 100px;
+    width: 100px;
+    /* position: static; */
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px; 
+}

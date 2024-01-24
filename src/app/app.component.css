@@ -1,0 +1,18 @@
+nav a {
+    padding: .7rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  h1 {
+    margin-bottom: .3rem;
+  }
+  
+  form {
+    margin-bottom: 2rem;
+  }
+  
+  nav {
+    padding-bottom: 3rem;
+  }
+ 

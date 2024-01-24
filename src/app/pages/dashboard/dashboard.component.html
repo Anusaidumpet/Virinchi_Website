@@ -1,0 +1,130 @@
+<header>
+  <nav id="navbar">
+    <li id="name" aria-current="page" (click)="redirectTohome()"> Virinchi</li>
+    <ul>
+      <li><a>Home</a></li>
+      <li><a (click)="redirectToabout()">About</a></li>
+      <li><a>Hospital</a></li>
+      <li><a>Facility</a></li>
+      <li><a>Treatments</a></li>
+      <!-- <li class="Label"><input type="search" id="SearchInput" placeholder="Search" />
+        <label for="SearchInput"></label>
+      </li> -->
+      <form class="d-flex mt-2">
+        <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+      <button class="appointment" (click)="redirectTologin()">Log in</button>
+    </ul>
+  </nav>
+</header>
+<br>
+<!-- *********navbar end********* -->
+<section class="intro">
+  <div class="intro-container">
+    <a (click)="redirectTologin()" class="Home">
+      <img src="assets/Home_Hospital.png" alt="company logo">
+    </a>
+    <h1>Virinchi Hospital</h1>
+    <h3>“To Serve A Billion Patients”</h3>
+    <p> Existing <b>700 bed&nbsp;</b> "facilities across 3 locations in Hyderabad, to grow to&nbsp; <b>2,000 beds in 3 years</b></p>
+    <p>"Leading HIS/EMR solution with <b>100+</b> installs"</p>
+    <p>Healthcare Ecosystem mobility solution to target 1mn Integrated Healthcare Providers</p>
+    <!-- <button class="btn">
+      <a href="https://virinchihospitals.com/about-us/">
+        Explore</a></button> -->
+        <button class="btn btn-outline-light " type="submit">
+          <a href="https://virinchihospitals.com/about-us/">
+            Explore</a></button>
+  </div>
+</section>
+<!--  ********intro********  -->
+<section class="facility">
+  <h1>facilities in our hospital</h1>
+  <p >Virinchi hospitals is well equipped to deliver the largest range of surgical services with the necessary personnel,
+    equipment and infrastructure for over 2000 surgical procedures across multiple clinical specialties. The hospital
+    has a vast team of super specialist surgeons, anaesthetists, nursing and technical team to conduct complex surgeries
+    with high quality outcomes</p>
+  <div class="fac-container">
+    <div class="box"><img src="assets/Cardiac-care.jpg" alt="" facility-img>
+      <h1>Cardiac-Care</h1>
+      <p class="card">Virinchi provides best in class comprehensive super-specialty healthcare for patients arriving from across the
+        globe. We have more than 35 specialties with emphasis on CONNECT specialties – Cardiology, Orthopedics,
+        Neurology, Nephrology, Emergency Medicine, Cancer and Transplant Medicine. The hospital has some of the leading
+        doctors in the country to provide superior care and best-in-class treatment for the patients.</p>
+    </div>
+    <div class="box"><img src="assets/Critical-care.jpg" alt="" facility-img>
+      <h1>Critical-Care</h1>
+      <p class="card">Virinchi provides best in class comprehensive super-specialty healthcare for patients arriving from across the
+        globe. We have more than 35 specialties with emphasis on CONNECT specialties – Cardiology, Orthopedics,
+        Neurology, Nephrology, Emergency Medicine, Cancer and Transplant Medicine. The hospital has some of the leading
+        doctors in the country to provide superior care and best-in-class treatment for the patients.</p>
+    </div>
+    <div class="box"><img src="assets/nephro-care.jpg" alt="" facility-img>
+      <h1>Nephro-Care</h1>
+      <p class="card">Virinchi provides best in class comprehensive super-specialty healthcare for patients arriving from across the
+        globe. We have more than 35 specialties with emphasis on CONNECT specialties – Cardiology, Orthopedics,
+        Neurology, Nephrology, Emergency Medicine, Cancer and Transplant Medicine. The hospital has some of the leading
+        doctors in the country to provide superior care and best-in-class treatment for the patients.</p>
+    </div>
+    <div class="box"><img src="assets/Transplant-care.jpg" alt="" facility-img>
+      <h1>Transplant-Care</h1>
+      <p class="card">Virinchi provides best in class comprehensive super-specialty healthcare for patients arriving from across the
+        globe. We have more than 35 specialties with emphasis on CONNECT specialties – Cardiology, Orthopedics,
+        Neurology, Nephrology, Emergency Medicine, Cancer and Transplant Medicine. The hospital has some of the leading
+        doctors in the country to provide superior care and best-in-class treatment for the patients.</p>
+    </div>
+    <div class="box"><img src="assets/Orthopedic-care.jpg" alt="" facility-img>
+      <h1>Orthopedic-Care</h1>
+      <p class="card">Virinchi provides best in class comprehensive super-specialty healthcare for patients arriving from across the
+        globe. We have more than 35 specialties with emphasis on CONNECT specialties – Cardiology, Orthopedics,
+        Neurology, Nephrology, Emergency Medicine, Cancer and Transplant Medicine. The hospital has some of the leading
+        doctors in the country to provide superior care and best-in-class treatment for the patients.</p>
+    </div>
+    <div class="box"><img src="assets/gastroentology.jpg" alt="" facility-img>
+      <h1>Gastroentology</h1>
+      <p class="card">Virinchi provides best in class comprehensive super-specialty healthcare for patients arriving from across the
+        globe. We have more than 35 specialties with emphasis on CONNECT specialties – Cardiology, Orthopedics,
+        Neurology, Nephrology, Emergency Medicine, Cancer and Transplant Medicine. The hospital has some of the leading
+        doctors in the country to provide superior care and best-in-class treatment for the patients.</p>
+    </div>
+  </div>
+</section>
+<!--  -->
+<section class="key-point">
+  <h1>Some Key Points
+
+  </h1>
+  <div class="key-cont">
+    <div id="box1"><img src="assets/Heartbeat.png" alt="" class="icon">
+      <h2>Hospitality</h2>
+      <p>We promise to provide you, access to the latest healthcare practices on the planet, right here. While our
+        doctors are among the best and our equipment the latest in the world, what makes us different is our scientific
+        approach. We believe every human should have the fundamental “Right To Science”, where she can apply the latest
+        science for her health. If you would like to get in touch with a doctor from a specific department, would like
+        some specific information about the services we provide, or just have a question for us, please fill up the form
+        given below and we will get back to you.</p>
+    </div>
+    <div id="box2"><img src="assets/Ambulance.png" alt="" class="icon">
+      <h2>Ambulance</h2>
+      <p>We promise to provide you, access to the latest healthcare practices on the planet, right here. While our
+        doctors are among the best and our equipment the latest in the world, what makes us different is our scientific
+        approach. We believe every human should have the fundamental “Right To Science”, where she can apply the latest
+        science for her health. If you would like to get in touch with a doctor from a specific department, would like
+        some specific information about the services we provide, or just have a question for us, please fill up the form
+        given below and we will get back to you.</p>
+    </div>
+    <div id="box3"><img src="assets/Contact.png" alt="" class="icon">
+      <h2>Doctors</h2>
+      <p>We promise to provide you, access to the latest healthcare practices on the planet, right here. While our
+        doctors are among the best and our equipment the latest in the world, what makes us different is our scientific
+        approach. We believe every human should have the fundamental “Right To Science”, where she can apply the latest
+        science for her health. If you would like to get in touch with a doctor from a specific department, would like
+        some specific information about the services we provide, or just have a question for us, please fill up the form
+        given below and we will get back to you.</p>
+    </div>
+  </div>
+</section>
+<footer>
+  Copyroght &copy; www.Virinchi.com
+</footer>

@@ -1,0 +1,85 @@
+.well-block {
+  background-color: #fff;
+  border: 1px solid #e9e6e8;
+  padding: 33px;
+}
+.container{ align-items: center;}
+
+.well-title {
+  margin-bottom: 40px;
+}
+
+.container { 
+  margin-top: -37rem;
+
+}
+#navbar{
+  margin-top:0;
+  background-color: rgb(103, 103, 255);
+  height: 50px;
+  position:fixed;
+  text-decoration: none;
+}
+#navbar ul{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start; 
+  cursor: pointer;
+}
+#navbar ul li { 
+  list-style: none;
+  margin:15px 0 ;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin: 36px;
+}
+#navbar ul li a:hover{
+  color: rgb(2,2,122);
+  text-decoration: white 1.5px underline;
+  text-decoration: none;
+}
+#name{
+color: black;
+font-size: 30px;
+font-weight: bold;
+list-style: none;
+text-decoration: none;
+margin: 8px 69px;
+float: left;
+}
+.seaerch{
+  border-radius: 10px ;
+}
+.appointment{
+  list-style: none;
+  /* display: inline-block; */
+  color: white;
+  padding: 6px;
+  background: transparent;
+  border: 1px solid white;
+  margin-left: 56px;
+  border-radius: 10px;
+  /* float: right; */
+  width: 100px;
+  height: 36px;
+  margin-top: 6px;
+  margin-right: 18px;
+}
+
+
+#first-element{
+  margin-left: 500px;
+  display: block;
+}
+.appointment:hover{
+  transition: 0.3s;
+  background: rgb(66,66,214); 
+}
+/* booking appoint ment end */
+.about-circle{
+	margin-left: 13rem;
+  margin-top: 5.5rem;
+}
