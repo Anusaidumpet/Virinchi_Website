@@ -41,7 +41,7 @@
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumError": "20kb"
                 }
               ],
               "outputHashing": "all"
@@ -88,6 +88,14 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/hospital-appointment",
+            "netlifyToken": "nfp_9ZgwCDfUqQ6CB6uuzXJqJYt9Q1g5UcZp729c",
+            "siteId": "anusaidumpeti9@gmail.com"
           }
         }
       }
